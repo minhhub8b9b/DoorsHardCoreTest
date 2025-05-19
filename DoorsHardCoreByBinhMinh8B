@@ -19,7 +19,7 @@ end)()
 -- A-60 Mini Blue
 coroutine.wrap(function()
     while true do
-        wait(35)
+        wait(15)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/DoorsHardCoreTest/refs/heads/main/MiniA-60"))()
 end
 
