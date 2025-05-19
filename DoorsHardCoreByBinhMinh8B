@@ -40,7 +40,7 @@ end)()
 -- a-60
 coroutine.wrap(function()
     while true do
-        wait(600)
+        wait(20)
          game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 loadstring(game:HttpGet("https://pastebin.com/raw/KpqhHcyx"))()
 
@@ -51,7 +51,7 @@ end)()
 -- Silence
 coroutine.wrap(function()
     while true do
-        wait(440)
+        wait(40)
          game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://pastebin.com/raw/uNnkcsGU"))()
@@ -75,7 +75,7 @@ end)()
 -- A200(Secret Entity)
  coroutine.wrap(function()
     while true do
-        wait(100000)
+        wait(10)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
