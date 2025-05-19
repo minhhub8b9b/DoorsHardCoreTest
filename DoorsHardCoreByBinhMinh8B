@@ -16,11 +16,11 @@ end
 
 end)()
 
--- shocker
+-- A-60 Mini Blue
 coroutine.wrap(function()
     while true do
         wait(35)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/refs/heads/main/Entities/Shocker"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/DoorsHardCoreTest/refs/heads/main/MiniA-60"))()
 end
 
 end)()
@@ -73,7 +73,7 @@ end
 end)()
 
 -- A200(Secret Entity)
-coroutine.wrap(function()
+ coroutine.wrap(function()
     while true do
         wait(100000)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
