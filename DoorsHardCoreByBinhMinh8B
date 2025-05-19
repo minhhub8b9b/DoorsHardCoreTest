@@ -10,7 +10,7 @@ coroutine.wrap(function()
         wait(100)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastefy.app/ofutwkjb/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/DoorsHardCoreTest/refs/heads/main/SCARY%20FACE"))()
 
 end
 
