@@ -29,7 +29,7 @@ local function spawnShocker()
         if (angle:Dot(direction) > 0.9) then
             if tick() - startTime >= lookDuration then
                 horrorScream:Play()
-                humanoid:TakeDamage(30)
+                humanoid:TakeDamage(100)
                 playerLookingAtShocker = false
 
                 local speed = 10
@@ -46,7 +46,7 @@ local function spawnShocker()
                 wait(3)
                 shockerModel:Destroy()
 game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Shocker"
-firesignal(game.ReplicatedStorage.RemotesFolder.DeathHint.OnClientEvent, {"You died to who you call Shocker...","Dont look at it or it stuns you!"},"Blue")
+firesignal(game.ReplicatedStorage.RemotesFolder.DeathHint.OnClientEvent, {"You died to who you call A-60 Mini Tí Hon...","Dont look at it or it stuns you!"},"Blue")
                 break
             end
         else
@@ -61,7 +61,7 @@ oogaBoogaaPart.Anchored = false
 wait(3)
     shockerModel:Destroy()
 ---====== Load achievement giver ======---
-local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/DoorsHardCoreTest/refs/heads/main/MINI%20A-60%20UPDATE"))()
 
 ---====== Display achievement ======---
 achievementGiver({
