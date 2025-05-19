@@ -28,7 +28,7 @@ end)()
 -- Dread
 coroutine.wrap(function()
     while true do
-        wait(550)
+        wait(50)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)       
 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanggphuc/Entity-obfuscate/refs/heads/main/Dread.lua"))()
